@@ -1,0 +1,17 @@
+{
+    "token": "MTM3Nzg2OTM5ODczMTI2NDE1MA.G8ERB4.Cpw1jLnX0tJAZ3u4FTPQvAPR12zqYeXZSZTNjs",
+    "clientId": "1377869398731264150",
+    "botOwner": "597473051730247711",
+    "botSettings": {
+        "defaultPrefix": "!",
+        "defaultColor": "#2f3136",
+        "deleteTicketsAfter": 12,
+        "maxTicketsPerUser": 1
+    },
+    "oauth2": {
+        "clientId": "1377869398731264150",
+        "clientSecret": "yIFrM1w6XFPI20YFwVA3sLeJlGFBKeBa",
+        "redirectUri": "https://discord.com/developers/applications",
+        "scopes": ["identify", "guilds"]
+    }
+}

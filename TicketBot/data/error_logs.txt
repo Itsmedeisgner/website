@@ -1,0 +1,53 @@
+[2025-06-02T18:55:13.656Z] Command: logsetup
+Error [InteractionNotReplied]: The reply to this interaction has not been sent or deferred.
+    at ChatInputCommandInteraction.editReply (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:157:48)
+    at Object.execute (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\SystemBot\commands\logsetup.js:93:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\index.js:191:9)
+
+[2025-06-04T11:28:32.487Z] Command: lock
+ReferenceError: errorHandler is not defined
+    at Object.execute (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\SystemBot\commands\lock.js:60:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Client.<anonymous> (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\index.js:192:9)
+
+[2025-06-04T12:33:59.485Z] Command: help
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:640:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:736:23)
+    at async REST.request (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:1387:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:111:5)
+    at async Object.execute (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\SystemBot\commands\help.js:236:13)
+    at async Client.<anonymous> (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\index.js:192:9)
+
+[2025-06-04T12:34:01.834Z] Command: help
+DiscordAPIError[40060]: Interaction has already been acknowledged.
+    at handleErrors (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:640:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:736:23)
+    at async REST.request (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:1387:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:111:5)
+    at async Object.execute (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\SystemBot\commands\help.js:236:13)
+    at async Client.<anonymous> (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\index.js:192:9)
+
+[2025-06-04T12:34:19.102Z] Command: debuglog
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:640:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:736:23)
+    at async REST.request (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:1387:22)
+    at async ChatInputCommandInteraction.deferReply (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:69:5)
+    at async Object.execute (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\SystemBot\commands\debuglog.js:26:9)
+    at async Client.<anonymous> (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\index.js:192:9)
+
+[2025-06-04T12:34:19.101Z] Command: debuglog
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:640:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:736:23)
+    at async REST.request (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\@discordjs\rest\dist\index.js:1387:22)
+    at async ChatInputCommandInteraction.deferReply (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:69:5)
+    at async Object.execute (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\SystemBot\commands\debuglog.js:26:9)
+    at async Client.<anonymous> (C:\Users\eyada\OneDrive\Desktop\Arkan Bot\index.js:192:9)
+
